@@ -1,0 +1,114 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Bar Atas */
+.top-bar {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* Container Utama */
+.container {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+/* Sidebar */
+.sidebar {
+  width: px;
+  background-color: #f3f3f3;
+  padding: 19px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 30px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sidebar ul li a.active {
+  font-weight: bold;
+}
+
+/* Slider Container */
+.slider-container {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  background-color: #f3f3f3;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  min-width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.detail {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.bayar {
+  color: grey;
+  margin-bottom: 15px;
+}
+
+.fontbawah {
+  padding-left: 28.8px;
+  color: grey;
+}
+
+.membership-card, .options, .account-details {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: px solid #ddd;
+  border-radius: 6px;
+}
+
+.options div, .account-details div, section {
+  border-bottom: 2px solid #eaeaea;
+  padding: 8px; 
+}
+
+.options div:last-child, .account-details div:last-child {
+  border: none;
+}
+.sidebar ul li a.active {
+  font-weight: bold;
+  color: #000;
+  border-left: 3px solid #000;
+  padding-left: 10px;
+}
